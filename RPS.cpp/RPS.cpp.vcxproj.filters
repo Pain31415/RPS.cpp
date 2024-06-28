@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{75471392-909b-41c4-a6ce-d5b6f8c3ee7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Game">
+      <UniqueIdentifier>{92206b82-3b18-45b7-a587-e3ab0c0dccc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Domain\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>Domain\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
